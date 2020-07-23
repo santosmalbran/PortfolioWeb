@@ -1,0 +1,299 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+h2{
+    margin: 20px auto 30px auto;
+    font-size: 36px;
+    padding-top: 60px;
+    font-weight: 400;
+}
+
+.contenedor-header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 1px rgba(107, 107, 107, 0.25);
+
+}
+
+.nav{
+    width: 100%;
+}
+
+.ul{
+    width: 40%;
+    display: flex;
+    margin-right: 0px;
+
+}
+
+.lista{
+    margin-left: 5px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 33px;
+ 
+
+}
+ 
+a{
+    text-decoration: none;
+    color: #00026e;
+}
+
+a:hover{
+    color: #060afd;
+    transform : scale(1.1); 
+}
+ /*Contenedor sobre mi*/
+
+
+ .contenedor-about{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ 
+
+
+ .h2{
+     margin-top: 100px;
+ }
+
+ .descrip{
+     width: 800px;
+     font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 4vh;
+
+ }
+
+ .malbran{
+     font-weight: 800px;
+ }
+ 
+ .santos{
+    margin-top: 8vh;
+    width: 20%;
+}
+
+
+.botones{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    margin-top: 5vh;
+    width: 158px;
+    height: 50px;   
+    background-color: #7f7f80;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+.button:hover{
+    background-color: #4f4f50;
+}
+
+ .i{
+margin-right: 10px;
+margin-left: 10px;
+ }
+
+.be{
+    margin-top: 5vh;
+    width: 158px;
+    height: 50px;   
+    background-color: #1f3dc5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.be:hover{
+    background-color: #0230fd;
+}
+/*POrtfolio*/
+.contenedor-port{
+    background-color: #1430ad;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.text-port{
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    width: 811px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40PX;
+}
+
+ .proyectos{
+     margin: 30px auto 50px auto;
+     width: 26%;
+     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+     transition: transform .5s; /* Animation */
+ }
+
+ .proyectos:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+/*Habilidades*/
+
+
+.contenedor-habilidades{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fila-uno{
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fila-dos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.carga{
+    background-color: #AE7A7A;
+    width: 400px;
+    height: 28px;
+    margin: auto 10px;
+    border-radius: 10px;
+
+}
+
+.porcentaje{
+    margin: auto 5px;
+} 
+
+.conocimiento{
+    margin: auto 5px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.contacto{
+    width: 100%;
+    margin-top: 100px;
+    background: #1430ad;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+
+.contenedor-contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 85%;
+}
+
+.linea{
+    background: #0a0a0a;
+border-radius: 20px;
+width: 9px;
+height: 312px;
+margin-right: 100px;
+margin-bottom: 40px;
+}
+
+.contenedorinfo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 0px;
+    height: 312px;
+
+}
+
+
+.curriculum{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+    text-align: left;
+    align-items: center;
+
+}
+
+.curriculum p{
+    align-items: center;
+
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    background: #38b43e;
+    border-radius: 10px;
+    color: #ffffff;
+
+}
